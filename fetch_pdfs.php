@@ -5,7 +5,7 @@ use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 
 // Azure Blob connection string
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=<your_account_name>;AccountKey=<your_account_key>";
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=storingfiles;AccountKey=FVDiDa/6VUYjGmTOql9+kw/oukKQFrlzx7MPQ9aSUgq4+n0THl+NAiMETW/FvK7KX7iA82paZ5Cr+ASt4qor8A==";
 
 // Create blob client
 $blobClient = BlobRestProxy::createBlobService($connectionString);
