@@ -4,7 +4,7 @@ FROM php:8.1-apache
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy all application files to /var/www/html (not inside wwwroot)
+# Copy application files to /var/www/html
 COPY . /var/www/html/
 
 # Install required PHP extensions and Composer
