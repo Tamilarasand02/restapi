@@ -11,7 +11,7 @@ $connectionString = "DefaultEndpointsProtocol=https;AccountName=<your_account_na
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 
 // Container name where PDFs are stored
-$containerName = "<your_container_name>";
+$containerName = "files-storing";
 
 try {
     // List blobs in the container
